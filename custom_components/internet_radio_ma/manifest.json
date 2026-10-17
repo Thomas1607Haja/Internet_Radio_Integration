@@ -1,0 +1,19 @@
+{
+  "domain": "internet_radio_ma",
+  "name": "Internet Radio MA Dashboard",
+  "version": "1.0.23",
+  "icon": "mdi:radio-tower",
+  "documentation": "https://example.invalid/internet_radio_ma",
+  "issue_tracker": "https://example.invalid/internet_radio_ma/issues",
+  "dependencies": [
+    "frontend",
+    "music_assistant"
+  ],
+  "codeowners": [
+    "@thomas"
+  ],
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "config_flow": true,
+  "requirements": []
+}

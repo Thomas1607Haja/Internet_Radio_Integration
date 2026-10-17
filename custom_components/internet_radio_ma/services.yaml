@@ -1,0 +1,30 @@
+play_favorite:
+  name: Play favorite
+  description: Start a radio favorite from Music Assistant on the selected media player.
+  fields:
+    entity_id:
+      name: Target media player
+      description: Optional override for target media_player entity.
+      required: false
+      selector:
+        entity:
+          domain: media_player
+    favorite_id:
+      name: Favorite id
+      description: Favorite item id from the dashboard sensor attributes.
+      required: false
+      selector:
+        text:
+    favorite_index:
+      name: Favorite index
+      description: Zero-based index in favorites list.
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 500
+          mode: box
+
+refresh:
+  name: Refresh data
+  description: Trigger an immediate reload of favorites and playback metadata.

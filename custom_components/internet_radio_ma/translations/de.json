@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Internet Radio MA Dashboard",
+        "description": "Zielplayer und Dashboard-Optionen konfigurieren.",
+        "data": {
+          "target_player": "Ziel-Mediengeraet",
+          "device_image_on": "Geraetebild (an)",
+          "device_image_off": "Geraetebild (aus)",
+          "update_interval": "Aktualisierungsintervall (Sekunden)",
+          "page_size": "Favoriten pro Seite"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Internet Radio MA Dashboard Optionen",
+        "description": "Zielplayer und Dashboard-Optionen anpassen.",
+        "data": {
+          "target_player": "Ziel-Mediengeraet",
+          "device_image_on": "Geraetebild (an)",
+          "device_image_off": "Geraetebild (aus)",
+          "update_interval": "Aktualisierungsintervall (Sekunden)",
+          "page_size": "Favoriten pro Seite"
+        }
+      }
+    }
+  }
+}

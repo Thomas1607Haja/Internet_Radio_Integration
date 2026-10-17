@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Internet Radio MA Dashboard",
+        "description": "Configure target player and dashboard options.",
+        "data": {
+          "target_player": "Target media player",
+          "device_image_on": "Device image (on)",
+          "device_image_off": "Device image (off)",
+          "update_interval": "Update interval (seconds)",
+          "page_size": "Favorites per page"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Internet Radio MA Dashboard Options",
+        "description": "Adjust target player and dashboard options.",
+        "data": {
+          "target_player": "Target media player",
+          "device_image_on": "Device image (on)",
+          "device_image_off": "Device image (off)",
+          "update_interval": "Update interval (seconds)",
+          "page_size": "Favorites per page"
+        }
+      }
+    }
+  }
+}
